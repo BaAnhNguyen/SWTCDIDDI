@@ -6,7 +6,7 @@ describe('validateDate', () => {
 
 
   it('should return an error message for an empty string', () => {
-    expect(validateDate('')).toBe('Date cannot be ');
+    expect(validateDate('')).toBe('Date cannot be empty');
   });
 
   it('should return an error for year less than 1000', () => {
